@@ -303,7 +303,8 @@
           "API_Windows.Networking.Sockets": "OFF",
           "API_Windows.Storage": "ON",
           "API_Hardware.Esp32": "ON",
-          "API_nanoFramework.Hardware.Esp32.Rmt": "ON"
+          "API_nanoFramework.Hardware.Esp32.Rmt": "ON",
+          "API_System.Security.Cryptography": "ON"
         }
       },
       "Esp32_nanoCLR_Wrover": {
@@ -347,7 +348,8 @@
           "GRAPHICS_DISPLAY": "ILI9341_240x320_SPI.cpp",
           "TOUCHPANEL_DEVICE": "XPT2046.cpp",
           "GRAPHICS_DISPLAY_INTERFACE": "Spi_To_Display.cpp",
-          "TOUCHPANEL_INTERFACE": "Spi_To_TouchPanel.cpp"
+          "TOUCHPANEL_INTERFACE": "Spi_To_TouchPanel.cpp",
+          "API_System.Security.Cryptography": "ON"
         }
       },
       "TI_CC1352R1_LAUNCHXL": {

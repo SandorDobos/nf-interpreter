@@ -31,6 +31,7 @@ option(API_Windows.Devices.Spi                  "option for Windows.Devices.Spi 
 option(API_Windows.Networking.Sockets           "option for Windows.Networking.Sockets")
 option(API_Windows.Storage                      "option for Windows.Storage")
 option(API_nanoFramework.Graphics               "option for nanoFramework.Graphics")
+option(API_System.Security.Cryptography         "option for System.Security.Cryptography")
 
 
 # Esp32 only
@@ -338,6 +339,13 @@ if(API_Windows.Storage)
     ##### API name here (doted name)
     PerformSettingsForApiEntry("Windows.Storage")
 endif()
+
+# System.Security.Cryptography
+if(API_System.Security.Cryptography)
+    ##### API name here (doted name)
+    PerformSettingsForApiEntry("System.Security.Cryptography")
+endif()
+
 
 # Interop assemblies
 ParseInteropAssemblies()

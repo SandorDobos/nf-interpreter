@@ -569,6 +569,12 @@ else()
     set(HAL_USE_GPIO_OPTION FALSE CACHE INTERNAL "HAL GPIO for Windows.Devices.Gpio")
 endif()
 
+if(API_System.Security.Cryptography)
+    set(HAL_USE_CRYPTO_OPTION TRUE CACHE INTERNAL "HAL CRYPTO for System.Security.Cryptography")
+else()
+    set(HAL_USE_CRYPTO_OPTION FALSE CACHE INTERNAL "HAL CRYPTO for System.Security.Cryptography")
+endif()
+
 
 if(API_System.Device.I2c)
     set(HAL_USE_I2C_OPTION TRUE CACHE INTERNAL "HAL I2C for System.Device.I2c")

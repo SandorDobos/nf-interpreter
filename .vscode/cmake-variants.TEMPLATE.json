@@ -104,7 +104,8 @@
           "API_Hardware.Esp32": "OFF-default-ON-to-add-this-API",
           "API_Hardware.Stm32": "OFF-default-ON-to-add-this-API",
           "API_nanoFramework.TI.EasyLink": "OFF-default-ON-to-add-this-API",
-          "API_nanoFramework.Hardware.Esp32.Rmt": "OFF-default-ON-to-add-this-API"
+          "API_nanoFramework.Hardware.Esp32.Rmt": "OFF-default-ON-to-add-this-API",
+          "API_System.Security.Cryptography": "OFF-default-ON-to-add-this-API"
         }
       }
     }
